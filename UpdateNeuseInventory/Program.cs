@@ -31,8 +31,7 @@ namespace UpdateNeuseInventory
 
             String LeadingZeroItem = null;
 
-            var a = 1;
-
+           
             try
             {
                 var inputFileDescription = new CsvFileDescription
