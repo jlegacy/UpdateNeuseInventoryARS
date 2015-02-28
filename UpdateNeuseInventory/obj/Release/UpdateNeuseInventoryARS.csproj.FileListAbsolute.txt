@@ -7,3 +7,6 @@ C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\UpdateNeuseInventoryARS\U
 C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\UpdateNeuseInventoryARS\UpdateNeuseInventory\bin\Release\Newtonsoft.Json.xml
 C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\UpdateNeuseInventoryARS\UpdateNeuseInventory\obj\Release\UpdateNeuseInventory.exe
 C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\UpdateNeuseInventoryARS\UpdateNeuseInventory\obj\Release\UpdateNeuseInventory.pdb
+C:\Users\jlegacy\Documents\UpdateNeuseInventoryARS\UpdateNeuseInventory\bin\Release\UpdateNeuseInventory.exe.config
+C:\Users\jlegacy\Documents\UpdateNeuseInventoryARS\UpdateNeuseInventory\obj\Release\UpdateNeuseInventory.exe
+C:\Users\jlegacy\Documents\UpdateNeuseInventoryARS\UpdateNeuseInventory\obj\Release\UpdateNeuseInventory.pdb

@@ -18,6 +18,7 @@ namespace UpdateNeuseInventory
             ReadCsv();
 
             Environment.Exit(0);
+
         }
 
         public static void ReadCsv()
