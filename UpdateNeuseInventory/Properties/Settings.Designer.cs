@@ -50,5 +50,14 @@ namespace UpdateNeuseInventory.Properties {
                 return ((string)(this["tempDir"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("300")]
+        public int timeOut {
+            get {
+                return ((int)(this["timeOut"]));
+            }
+        }
     }
 }

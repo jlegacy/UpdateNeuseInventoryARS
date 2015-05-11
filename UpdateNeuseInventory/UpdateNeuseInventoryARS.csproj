@@ -52,6 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ARSTemp.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ARSTemp.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="NeuseARSDrv.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NeuseARSDrv.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Products.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +80,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="ARSTemp.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ARSTemp.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NeuseARSDrv.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>NeuseARSDrv.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Products.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -87,6 +107,16 @@
   <ItemGroup>
     <None Include="Products.dbml.layout">
       <DependentUpon>Products.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ARSTemp.dbml.layout">
+      <DependentUpon>ARSTemp.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NeuseARSDrv.dbml.layout">
+      <DependentUpon>NeuseARSDrv.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

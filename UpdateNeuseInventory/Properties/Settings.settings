@@ -16,5 +16,8 @@
     <Setting Name="tempDir" Type="System.String" Scope="Application">
       <Value Profile="(Default)">C:\\temp</Value>
     </Setting>
+    <Setting Name="timeOut" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

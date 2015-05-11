@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nssnc" Class="NeuseARSDrvDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JOSEPH\SQLEXPRESS;Initial Catalog=nssnc;Integrated Security=True" SettingsObjectName="UpdateNeuseInventory.Properties.Settings" SettingsPropertyName="nssncConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.NeuseARSDrv" Member="NeuseARSDrvs">
+    <Type Name="NeuseARSDrv">
+      <Column Name="upc" Type="System.String" DbType="NVarChar(25) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="qty" Type="System.Decimal" DbType="Decimal(18,4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prc" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
